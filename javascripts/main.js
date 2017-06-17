@@ -21,7 +21,7 @@ $(function(){
     });
     var cnt = 1;
     $("#btnslot").bind("click", function(){
-        var randomnumber = Math.floor(Math.random() * 120);
+        var randomnumber = Math.floor(Math.random() * 150);
         var sHtml = '<div><div id="slottitle"><h2>' + cnt + '번째 돌립니다. </h1></div>';
             sHtml += '<div id="slotmashine' + cnt + '" data-count="' + randomnumber +'"></div><div>';
         $("#slot").append(sHtml);
